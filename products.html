@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore E & A Cosmetics face wash, makeup essentials and beauty rituals. Search, filter and enquire about our beauty collection.">
+    <title>Beauty Collection | E & A Cosmetics</title>
+    <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOUR-DOMAIN-HERE/products.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="header">
+    <a class="brand" href="index.html" aria-label="E & A Cosmetics home">
+        <img src="logo.png" alt="E & A Cosmetics - Edith and Abby logo">
+        <span>E & A Cosmetics</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+        <a class="" href="index.html">Home</a>
+        <a class="" href="about.html">About Us</a>
+        <a class="active" href="products.html">Collection</a>
+        <a class="" href="gallery.html">Gallery</a>
+        <a href="enquiry.html">Enquire</a>
+<a class="" href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+</header>
+
+<main id="main-content">
+<section class="collection" id="products" aria-labelledby="collection-title">
+    <div class="section-head">
+        <div>
+            <p class="kicker">THE COLLECTION</p>
+            <h2 id="collection-title">Beauty essentials</h2>
+        </div>
+        <p>Discover the E & A Cosmetics collection, created around your skincare, makeup and beauty rituals.</p>
+    </div>
+    <div class="product-tools">
+<label class="search-label" for="productSearch">Search collection<input type="search" id="productSearch" placeholder="Search products..."></label>
+<label class="search-label" for="categoryFilter">Category<select id="categoryFilter"><option value="all">All categories</option><option value="skincare">Skincare</option><option value="makeup">Makeup</option><option value="beauty">Beauty</option></select></label>
+<label class="search-label" for="productSort">Sort<select id="productSort"><option value="default">Featured</option><option value="az">Name: A–Z</option><option value="za">Name: Z–A</option></select></label></div>
+<p class="results-count" id="resultsCount" aria-live="polite"></p><div class="products" id="productsGrid" aria-live="polite"></div>
+<p class="empty-state" id="emptyState" hidden>No products match your search. Try another keyword or category.</p>
+</section>
+
+
+</main>
+
+<footer class="footer">
+    <div>
+        <strong>E & A Cosmetics</strong>
+        <p>Beauty, confidence & self-love.</p>
+    </div>
+    <div>
+        <p>Edith & Abby • Established 2022 • <span id="year">2026</span></p>
+        <p>Instagram: eacosmetics2022</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
